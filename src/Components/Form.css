@@ -1,0 +1,32 @@
+.token-type{
+    color: black;
+}
+.input-fields{
+    display: inline-grid;
+}
+.token-type-button{
+    width: 254px;
+    background-color: lightgray;
+    border: none;
+    height: 30px;
+}
+.token-type-button:hover{
+    background-color: white;
+}
+form{
+    margin-top: 29px;
+}
+label { width: 200px; float: left; margin:0 202px 0 0; }
+span { display: block; margin: 0 0 3px; font-size: 1.2em; font-weight: bold; }
+input { width: 357px ;
+     border: 1px solid #000;
+      padding: 5px;
+      border-color: lightgray;
+      height: 34px;
+      border-radius: 5px; }
+
+.submit-button{
+    margin-top: 20px;
+    margin-left: 42%;
+    border-radius: 7px;
+}      

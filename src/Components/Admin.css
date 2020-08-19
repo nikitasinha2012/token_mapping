@@ -1,0 +1,21 @@
+.login-button{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.status-button{
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+}
+.reject-button{
+    margin-left: 20px;
+}
+.ant-modal-title{
+    font-size: 20px;
+}
+.modal-button{
+    margin-top: 20px;
+}

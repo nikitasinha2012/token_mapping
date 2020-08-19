@@ -1,0 +1,98 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: white
+}
+  
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 185px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.map-button{
+    background-color: #2b6def;
+    color: white;
+    border: none;
+    height: 30px;
+
+}
+.admin-button{
+  background-color: #2b6def;
+  color: white;
+  border: none;
+  height: 30px;
+  margin-left: 20px;
+}
+.nav-buttons{
+  float: right;
+  padding-top: 13px;
+  padding-right: 53px;
+}
+
+    .wrapper{
+        background-color: #0a1647;
+        position: absolute;
+        top:8%;
+        width: 100%;
+        height: 43%;
+        padding-left: 182px;
+        padding-top: 20px;
+    }
+   h1{
+       color: white;
+   }
+   p{
+       color: white;
+   }
+   .ant-card-bordered{
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 61%
+
+   }
+   .ant-card-body{
+     background-color: #FCFCFC;
+   }
+   .ant-card-head-title{
+     font-size: 20px;
+   }
+   table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 36%;
+    background: white;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .pos-button, .plasma-button{
+      background-color: #2b6def;
+      border: none;
+      color:white;
+      width: 10%;
+  }
+  .plasma-button{
+    margin-left: 20px;
+  }
